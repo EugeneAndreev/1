@@ -43,7 +43,7 @@ console.log (1 && 3); //3 1- true значит 3
 console.log (0 && 3); //0 0 - false значит 0
 console.log (1 && 0); //0 1- true значит 0
 console.log (0 && 3); //0 0-false значит 0
-console.log (1 && 10); //10 1 - true значит 10
+console.log (!!(1 && 10)); //10 1 - true значит 10
 
 console.log (3 < 1 );
 
